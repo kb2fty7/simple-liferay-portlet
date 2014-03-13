@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.kb2fty7.testapplication.model.UserNote">
+		<field name="id" type="long" />
+		<field name="name" type="String" />
+		<field name="lastname" type="String" />
+		<field name="email" type="String" />
+		<field name="question" type="String" />
+	</model>
+</model-hints>
