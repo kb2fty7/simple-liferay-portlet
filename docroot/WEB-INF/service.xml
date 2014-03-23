@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+<service-builder package-path="com.kb2fty7.testapplication">
+	<author>Юрий</author>
+	<namespace>test_portlet</namespace>
+    <entity name="UserNote" local-service="true" remote-service="false">
+        <column name="id" primary="true" type="long"></column>
+        <column name="name" type="String"></column>
+        <column name="lastname" type="String"></column>
+        <column name="email" type="String"></column>
+        <column name="question" type="String"></column>
+    </entity>
+</service-builder>

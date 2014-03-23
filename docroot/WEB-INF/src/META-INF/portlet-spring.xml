@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.kb2fty7.testapplication.service.UserNoteLocalService" class="com.kb2fty7.testapplication.service.impl.UserNoteLocalServiceImpl" />
+	<bean id="com.kb2fty7.testapplication.service.persistence.UserNotePersistence" class="com.kb2fty7.testapplication.service.persistence.UserNotePersistenceImpl" parent="basePersistence" />
+</beans>
